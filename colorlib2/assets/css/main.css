@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #343A40;
+}
+
+.container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar {
+  background-color: #343A40;
+}
+.navbar .container a {
+  color: white;
+}
+.navbar .container #myForm #registerBtn {
+  color: white;
+}
+.navbar .container #myForm #loginBtn {
+  background-color: green;
+  color: white;
+}
+
+.customerSupport .customerImg {
+  background-image: url(https://preview.colorlib.com/theme/server/images/hero_bg_2.jpg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 450px;
+}
